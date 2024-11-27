@@ -10,7 +10,7 @@ class Stack
     int Tos,Size ;
     int *stk;
 public:
-    Stack(int L)
+    Stack(int L = 5)
     {
         cout<<"Ctor .."<<el;
         Tos=0;
